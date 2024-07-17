@@ -1,0 +1,16 @@
+export const ACTIONS = {
+  SELECT: "SELECT",
+  LOCK: "LOCK",
+  RECTANGLE: "RECTANGLE",
+  CIRCLE: "CIRCLE",
+  SCRIBBLE: "SCRIBBLE",
+  ARROW: "ARROW",
+  HATCH: "HATC",
+  DOWNLOAD: "DOWNLOAD",
+  DELETE: "DELETE",
+  ZOOM: "ZOOM",
+};
+
+export const FILLCOLORS = {
+  TRANSPARENCY: "",
+};
