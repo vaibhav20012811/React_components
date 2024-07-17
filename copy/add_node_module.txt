@@ -1,0 +1,6 @@
+# for /f "usebackq delims=" %i in ("commands.txt") do %i
+
+cmd /c mklink /j node_modules <file-path>
+cmd /c mklink /h package.json <file-path>
+cmd /c mklink /h package-lock.json <file-path>
+cmd /c mklink /h tailwind.config.js <file-path>
